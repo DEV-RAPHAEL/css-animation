@@ -1,0 +1,157 @@
+/*// BASE STYLES //*/
+
+html, body{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.grass, .sky, .road{
+  position: relative;
+}
+
+.sky{
+  height: 40%;
+  background: skyblue;
+}
+
+#cloud{
+  animation: cloud 20s  5s 100;
+}
+
+.grass{
+  height: 30%;
+  background: seagreen;
+}
+
+.road{
+  height: 30%;
+  background: dimgrey;
+  box-sizing: border-box;
+  border-top: 10px solid grey;
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.lines{
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+#bike{
+  height: 90px;
+  position: absolute;
+  top: -60px;
+  animation: drive 10s  6s infinite ;
+  left: -400px;
+}
+#mario{
+  height: 90px;
+  position: absolute;
+  top: -60px;
+  animation: drive 10s  1s infinite ;
+  left: -200px;
+}
+#mario2{
+  height: 90px;
+  position: absolute;
+  top: -60px;
+  animation: drive 10s  1s infinite ;
+  left: -110px;
+}
+#lungi{
+  height: 90px;
+  position: absolute;
+  top: -60px;
+  left: -100px;
+  animation: drive 10s  4s infinite ;
+}
+#lungi2{
+  height: 90px;
+  position: absolute;
+  top: -60px;
+  left: -200px;
+  animation: drive 10s  5s infinite ;
+}
+#mariox{
+  height: 90px;
+  position: absolute;
+  top: -0px;
+  animation: drive 10s  6s infinite ;
+  left: -100px;
+}
+#mario2x{
+  height: 90px;
+  position: absolute;
+  top: -20px;
+  animation: drive 10s  2.5s infinite ;
+  left: -90px;
+}
+#lungix{
+  height: 90px;
+  position: absolute;
+  top: -20px;
+  left: -190px;
+  animation: drive 10s  4s infinite ;
+}
+#lungi2x{
+  height: 90px;
+  position: absolute;
+  top: -20px;
+  left: -100px;
+  animation: drive 10s  0s infinite ;
+  
+}
+#julie{
+  height: 80px;
+  position: absolute;
+  top: 90px;
+   left: 1200px; 
+  animation: julie 10s  2s infinite ;
+ 
+}
+#julie2{
+  height: 80px;
+  position: absolute;
+  top: 90px;
+  left: 1100px; 
+  animation: julie 10s  2s infinite ;
+  
+}
+#julie3{
+  height: 80px;
+  position: absolute;
+  top: 90px;
+ left: 1000px; 
+  animation: julie 10s  2s infinite ;
+  
+}
+
+@keyframes drive{
+  from{ transform: translateX(-200);}
+  to{ transform: translateX(1500px);}
+}
+@keyframes julie{
+  from{ transform: translateX(200px);}
+  to{ transform: translateX(-1500px);}
+}
+@keyframes cloud{
+  from{transform: translateX(0);}
+  to{transform: translateX(1000px);}
+}
+/*// ELEMENTS TO ANIMATE //*/
+
+
+
+/*// KEYFRAMES //*/
+
+
+
+
+
+
+
